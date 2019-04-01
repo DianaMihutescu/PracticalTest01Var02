@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticalTest01Var02SecondaryActivity">
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correct"
+        android:layout_below="@+id/text1"/>
+
+    <Button
+        android:id="@+id/incorrect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incorrect"
+        android:layout_below="@+id/correct"/>
+
+
+</RelativeLayout>

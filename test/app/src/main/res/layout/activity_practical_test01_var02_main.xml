@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticalTest01Var02MainActivity">
+
+    <EditText
+        android:id="@+id/editext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:saveEnabled="false"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/editext1"
+        android:layout_centerInParent="true">
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editext1"
+        android:text="+"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editext1"
+        android:text="-"
+        android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/editext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay"
+        android:saveEnabled="false"
+        />
+
+
+    <EditText
+        android:id="@+id/editext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editext2"
+        android:enabled="false"
+        android:saveEnabled="false"
+        />
+
+    <Button
+        android:id="@+id/changeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editext3"
+        android:layout_centerInParent="true"
+        android:text="Navigate to seoondary activity"/>
+
+
+
+
+</RelativeLayout>
